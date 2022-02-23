@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/opyjocommerce/static/css/main.cff94d85.css",
+    "main.js": "/opyjocommerce/static/js/main.ec756022.js",
+    "index.html": "/opyjocommerce/index.html",
+    "main.cff94d85.css.map": "/opyjocommerce/static/css/main.cff94d85.css.map",
+    "main.ec756022.js.map": "/opyjocommerce/static/js/main.ec756022.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cff94d85.css",
+    "static/js/main.ec756022.js"
+  ]
+}
