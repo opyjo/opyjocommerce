@@ -6,32 +6,30 @@ import ProductDetail from "./components/ProductDetail";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route
-            exact
-            path="/"
-            element={
-              <>
-                <Header />
-                <ProductListing />
-              </>
-            }
-          />
-          <Route
-            path="/product/:productId"
-            element={
-              <>
-                <Header />
-                <ProductDetail />
-              </>
-            }
-          />
-          <Route>404 Not Found! </Route>
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={
+            <>
+              <Header />
+              <ProductListing />
+            </>
+          }
+        />
+        <Route
+          path="/product/:productId"
+          element={
+            <>
+              <Header />
+              <ProductDetail />
+            </>
+          }
+        />
+        <Route>404 Not Found! </Route>
+      </Routes>
+    </Router>
   );
 }
 export default App;
